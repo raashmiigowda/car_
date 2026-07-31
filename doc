@@ -1,0 +1,27 @@
+AutomotiveAI/
+│
+├── app.py                         # Streamlit interface
+│
+├── requirements.txt
+│
+├── blender/
+│   ├── render_car.py              # Blender automation
+│   └── automotive_scene.blend     # Blender scene
+│
+├── assets/
+│   └── car/
+│       └── car.glb                # Fixed car model
+│
+├── environments/
+│   └── current_environment.hdr    # Generated environment
+│
+├── ai/
+│   ├── __init__.py
+│   └── environment_generator.py   # Image/HDRI generation
+│
+├── outputs/
+│   └── final_render.png
+│
+└── utils/
+    ├── __init__.py
+    └── blender_runner.py
